@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Simple Project</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+        <!-- Complete Form Validation -->
+        <div class="container">
+                <div class="row mt-5">
+                    <div class="col-sm-8 m-auto d-block">
+                        <h1 class="text-success text-center">Complete Validation Form</h1>
+                        <form action="" onsubmit=" return validationForm()" class="bg-light">
+                            <div class="form-group">
+                                <label for="">UserName :</label>
+                                <input type="text" name="user" class="form-control" id="user" placeholder="Username" autocomplete="off">
+                                <span id="username" class="text-danger font-weight-bold"></span>
+                            </div>
+
+                            <div class="form-group">
+                                    <label for="">Password :</label>
+                                    <input type="text" name="password" class="form-control" id="password" placeholder="Password" autocomplete="off">
+                                    <span id="pass" class="text-danger font-weight-bold"></span>
+                            </div>
+
+                            <div class="form-group">
+                                    <label for="">Confirm Password :</label>
+                                    <input type="text" name="cpassword" class="form-control" id="cpassword" placeholder="Confirm Password" autocomplete="off">
+                                    <span id="conpass" class="text-danger font-weight-bold"></span>
+                            </div>
+
+                            <div class="form-group">
+                                    <label for="">Mobile Number :</label>
+                                    <input type="text" name="mb" class="form-control" id="mb" placeholder="Mobile Number" autocomplete="off">
+                                    <span id="mobile" class="text-danger font-weight-bold"></span>
+                            </div>
+
+                            <div class="form-group">
+                                    <label for="">Email</label>
+                                    <input type="text" class="form-control" id="email" placeholder="Email" autocomplete="off">
+                                    <span id="emailId" class="text-danger font-weight-bold"></span>
+                            </div>
+                            <input type="submit" name="submit" value="submit" class="btn btn-success">
+                        </form>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        
+       
+       
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <!-- Popper JS -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+       <script src="main.js"></script>
+    </body>
+</html>
